@@ -1,0 +1,6 @@
+RUN	basic.first3	first3	1553625076072	2	3.0.3
+USER	HomePageSimulation	1	START	1553625078621	1553625078621
+REQUEST	1		Home page request	1553625078663	1553625082106	OK	 
+REQUEST	1		Home page request Redirect 1	1553625082153	1553625082667	OK	 
+REQUEST	1		get with session	1553625087694	1553625087809	KO	jsonPath($.table questionTable border).find.exists preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: < offset: 0 near: "<!DOCTYPE ..."
+USER	HomePageSimulation	1	END	1553625078621	1553625092897

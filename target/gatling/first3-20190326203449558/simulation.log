@@ -1,0 +1,8 @@
+RUN	basic.first3	first3	1553632489558	2	3.0.3
+USER	HomePageSimulation	1	START	1553632492143	1553632492143
+REQUEST	1		LOGIN	1553632492185	1553632495532	OK	 
+REQUEST	1		LOGIN Redirect 1	1553632495572	1553632495675	KO	jsonPath($.token).find.exists preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: < offset: 2 near: "  <!DOCTYPE ..."
+REQUEST	1		get with session	1553632505700	1553632505779	OK	 
+REQUEST	1		get with session Redirect 1	1553632505791	1553632505881	OK	 
+REQUEST	1		urun get request	1553632505886	1553632507387	OK	 
+USER	HomePageSimulation	1	END	1553632492143	1553632507395

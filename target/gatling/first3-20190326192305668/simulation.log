@@ -1,0 +1,7 @@
+RUN	basic.first3	first3	1553628185668	0	3.0.3
+USER	HomePageSimulation	1	START	1553628188271	1553628188271
+REQUEST	1		Home page request	1553628188312	1553628191714	OK	 
+REQUEST	1		Home page request Redirect 1	1553628191755	1553628191847	KO	Check validator resolution crashed: j.l.NumberFormatException: For input string: "200 to 210"
+REQUEST	1		get with session	1553628196884	1553628196913	OK	 
+REQUEST	1		get with session Redirect 1	1553628196928	1553628196976	KO	jsonPath($).find.exists preparation crashed: Jodd failed to parse into a valid AST: j.j.JsonException: Syntax error! Invalid char: < offset: 2 near: "  <!DOCTYPE ..."
+USER	HomePageSimulation	1	END	1553628188271	1553628202054

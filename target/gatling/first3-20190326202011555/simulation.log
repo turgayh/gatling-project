@@ -1,0 +1,7 @@
+RUN	basic.first3	first3	1553631611555	2	3.0.3
+USER	HomePageSimulation	1	START	1553631614238	1553631614238
+REQUEST	1		Home page request	1553631614293	1553631618216	OK	 
+REQUEST	1		Home page request Redirect 1	1553631618253	1553631618494	KO	Check validator resolution crashed: j.l.NumberFormatException: For input string: "200 to 210"
+REQUEST	1		get with session	1553631623511	1553631623604	OK	 
+REQUEST	1		get with session Redirect 1	1553631623614	1553631624216	OK	 
+USER	HomePageSimulation	1	END	1553631614238	1553631624244

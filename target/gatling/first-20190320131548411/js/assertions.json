@@ -1,0 +1,10 @@
+{
+  "simulation": "basic.first",
+  "simulationId": "first",
+  "start": 1553087748411,
+  "description": "1",
+  "scenarios": ["HomePageSimulation"],
+  "assertions": [
+
+  ]
+}

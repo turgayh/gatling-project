@@ -1,0 +1,4 @@
+RUN	basic.first	first	1553087276055	 	3.0.3
+USER	HomePageSimulation	1	START	1553087277856	1553087277856
+REQUEST	1		Home page request	1553087277886	1553087337887	KO	i.g.h.c.i.RequestTimeoutException: Request timeout after 60000 ms
+USER	HomePageSimulation	1	END	1553087277856	1553087342910

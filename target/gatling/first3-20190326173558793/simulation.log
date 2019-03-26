@@ -1,0 +1,6 @@
+RUN	basic.first3	first3	1553621758793	0	3.0.3
+USER	HomePageSimulation	1	START	1553621761537	1553621761537
+REQUEST	1		Home page request	1553621761586	1553621765026	OK	 
+REQUEST	1		Home page request Redirect 1	1553621765081	1553621765319	KO	jsonPath($..token).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')  at [Source: (io.gatling.commons.util.CompositeByteArrayInputStream); line: 6, column: 2]
+ERROR	get with session: Failed to build request: No attribute named 'auth' is defined 	1553621770354
+USER	HomePageSimulation	1	END	1553621761537	1553621770356

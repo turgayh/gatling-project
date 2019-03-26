@@ -1,0 +1,6 @@
+RUN	basic.first2	first2	1553545700955	1	3.0.3
+USER	HomePageSimulation	1	START	1553545703666	1553545703666
+REQUEST	1		Home page request	1553545703701	1553545708695	OK	 
+REQUEST	1		github login	1553545713743	1553545713996	KO	status.find.is(200), but actually found 422
+ERROR	Login get example: Failed to build request: No attribute named 'authToken' is defined 	1553545719069
+USER	HomePageSimulation	1	END	1553545703666	1553545719073

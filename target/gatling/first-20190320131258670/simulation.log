@@ -1,0 +1,4 @@
+RUN	basic.first	first	1553087578670	5	3.0.3
+USER	HomePageSimulation	1	START	1553087580376	1553087580376
+REQUEST	1		Home page request	1553087580412	1553087590430	KO	j.n.s.SSLException: handshake timed out
+USER	HomePageSimulation	1	END	1553087580376	1553087595455
