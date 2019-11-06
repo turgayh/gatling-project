@@ -1,6 +1,0 @@
-RUN	basic.first3	first3	1553621566738	2	3.0.3
-USER	HomePageSimulation	1	START	1553621569506	1553621569506
-REQUEST	1		Home page request	1553621569584	1553621573031	OK	 
-REQUEST	1		Home page request Redirect 1	1553621573074	1553621573284	KO	regex(token: (\d+)).find.exists, found nothing
-ERROR	get with session: Failed to build request: No attribute named 'auth' is defined 	1553621578319
-USER	HomePageSimulation	1	END	1553621569506	1553621578321

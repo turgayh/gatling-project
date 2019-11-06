@@ -1,5 +1,0 @@
-RUN	basic.first3	first3	1553631572996	2	3.0.3
-USER	HomePageSimulation	1	START	1553631575688	1553631575688
-REQUEST	1		Home page request	1553631575740	1553631578714	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8888
-REQUEST	1		get with session	1553631583740	1553631583741	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8888
-USER	HomePageSimulation	1	END	1553631575688	1553631583746
